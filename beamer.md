@@ -1,6 +1,6 @@
 ### Beamer用チートシート 
 ## preamble
-```
+```tex
 \documentclass[dvipdfmx,12pt,notheorems]{beamer} %dvipdfmxを使う場合は指定
 %%%% 和文用(よくわかってないです) %%%%
 \usepackage{bxdpx-beamer} %ナビゲーションシンボル(?)を機能させる

@@ -13,3 +13,8 @@
   \node(a\i) at (\x, 2.5) {$a_\i$};
 }
 ```
+#オプションで利用できるもの
+ - count '[count=\i from 0]'
+  ループ毎に'from'で指定した値にインクリメントする 
+ - evaluate '[eavluate=\x as \y using \x\*\x]' 
+  変数に対して'using'で評価した値を代入する

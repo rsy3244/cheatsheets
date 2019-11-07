@@ -1,4 +1,4 @@
-### tikz用チートシート
+# tikz用チートシート
 ## option
 
 ## expression
@@ -13,7 +13,7 @@
   \node(a\i) at (\x, 2.5) {$a_\i$};
 }
 ```
-# オプションで利用できるもの
+### オプションで利用できるもの
  - count `[count=\i from 0]`
   ループ毎に`from`で指定した値にインクリメントする 
  - evaluate `[eavluate=\x as \y using \x\*\x]` 
